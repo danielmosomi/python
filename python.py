@@ -35,3 +35,10 @@ book_price_123=10.0
 x=y=z=10 #assigning one value to multiple variables
 x,y,z=20,30,40 #assigning different values to different variables
 
+age=17
+residency="nairobian"
+
+if residency=="nairobian" or age>=18:
+    print("you can be governor")
+else:
+    print("you can not be governor")
