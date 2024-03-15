@@ -38,7 +38,29 @@ x,y,z=20,30,40 #assigning different values to different variables
 age=17
 residency="nairobian"
 
-if residency=="nairobian" or age>=18:
+if residency=="nairobian" and age>=18:
     print("you can be governor")
 else:
     print("you can not be governor")
+
+x=1
+while x<=10:
+    print("the number is:",x)
+    x+=1
+else:
+    print("loop ended:")
+
+x=1
+while x<=10:
+    print("the number is:",x)
+    x+=1
+
+else:
+    print("loop ended:")
+
+
+t = 0
+for n in range(1, 11):
+    if n % 2 != 0:
+        t += n
+print("The sum of odd numbers between 1 and 10 is:", t)
